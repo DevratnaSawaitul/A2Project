@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Get A Way</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Scan QR Code</string>
+    <string name="second_slide_title">Get Room Details</string>
+    <string name="third_slide_title">Get Navigated</string>
+    <string name="fourth_slide_title">Sit Back And Write Exam</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You have to scan QR Code which we give you exam hall detail </string>
+    <string name="second_slide_desc">Get notification if you chosen only hall number</string>
+    <string name="third_slide_desc">Get navigated through map if you chosen navigation through map</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything. </string>
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

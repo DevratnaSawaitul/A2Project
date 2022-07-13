@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NoticesFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_text"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="Insert Notice"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView_notices"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/t2"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_image_search_24"
+                app:tint="#434343" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView_notices"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp">
+
+                <Button
+                    android:id="@+id/upload_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="@font/baloo"
+                    android:text="Upload"
+                    android:textAllCaps="false"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/show_all_notices"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:fontFamily="@font/baloo"
+                    android:text="Show All"
+                    android:textAllCaps="false"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/whitecircle"
+                android:elevation="8dp"
+                android:padding="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

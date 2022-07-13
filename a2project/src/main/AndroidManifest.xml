@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="miniproject.codes.a2project">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Apptheme">
+        <activity
+            android:name=".HelperClasses.SeatAllotment"
+            android:exported="false" />
+        <activity
+            android:name=".ShowRoomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.SuccessLogin"
+            android:exported="false" />
+        <activity
+            android:name=".EnterRollno"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.SignUp3"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.SignUp2"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.SignUp1"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.SetNewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.MakeSelection"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.mainLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.ForgetPasswordSuccessMessage"
+            android:exported="false" />
+        <activity
+            android:name=".Common.LoginSignup.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Common.OnBoarding"
+            android:exported="false" />
+        <activity
+            android:name=".Common.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Databases.SearchRoom"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
